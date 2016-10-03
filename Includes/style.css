@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url(Images/img-3.jpg) no-repeat center center fixed;
+  background-size: cover ;
+}
+
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+.header ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  
+}
+.header li  {
+  display: inline;
+   padding: 15px;
+  font-size: 16px;
+ 
+}
+
+.header li a:link {
+  color: #fff;
+  text-decoration: none;
+}
