@@ -3,7 +3,15 @@ html, body {
   padding: 0;
 }
 
-/* Holds all the style elements for the navigation */
+
+p {
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri
+}
+
+/*------------------Holds all the style elements for the navigation------------------*/
 .navigation {
   text-align: center;
   padding: 10px 10px;
@@ -36,18 +44,24 @@ html, body {
   color: #fff;
   text-decoration: none;
 }
-/* END of navigation */
+/*------------------END of navigation------------------*/
 
 
-/* Image elements on the page */
+
+
+/*------------------General content part for Home page------------------*/
 .feature {
-  height: 700px;
+  height: 600px;
   background: url(./Images/whitemount.jpg);
   background-size: cover;
 }
 
-/* General content part for Home page */
+.more {
+  height: 600px;
+  background: url(./Images/redmount2.jpg);
+  background-size: cover;
 
+}
 
 .content {
   height: 600px;
@@ -65,30 +79,7 @@ html, body {
   margin-top: 50px;
 }
 
-/* END of content part */
-
-
-#content {
-   height: 880px;
-  background: url(./Images/img-3.jpg);
-  background-size: cover;
-
-}
-
-#welcome {
-  color: #fff;
-  font-size: 60px;
-}
-
-.more {
-  height: 600px;
-  background: url(./Images/redmount2.jpg);
-  background-size: cover;
-
-}
-
-/* END of image elements */
-
+/*------------------END of content part------------------*/
 
 /* Jumbotron stuff here */
 .jumbotron {
@@ -106,6 +97,34 @@ html, body {
 /* END of Jumbotron */
 
 
+#welcome {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+#welcome2 {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+  
+}
+
+#welcome3 {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+  
+}
+
+
 
 /* Footer section */
 
@@ -115,3 +134,78 @@ html, body {
   background-size: cover;
   text-align: center;
 }
+
+
+
+
+
+
+/*--- [THE FOLLOWING SECTION IS THE CSS FOR ALL THE OTHER PAGES]--- */
+
+
+
+/*------------------About elements------------------*/
+
+.AboutSection {
+   height: 500px;
+  background: url(./Images/img-3.jpg);
+  background-size: cover;
+
+}
+
+#backgroundAbout {
+   height: 500px;
+  background: url(./Images/NYC.jpg);
+  background-size: cover;
+
+}
+/*------------------END About elements------------------*/
+
+
+
+
+
+/*------------------Portfolio elements------------------*/
+
+#backgroundPortfolio {
+   height: 880px;
+  background: url(./Images/img-6.jpg);
+  background-size: cover;
+
+}
+
+/*------------------END Portfolio elements------------------*/
+
+
+
+
+/*------------------Contact elements------------------*/
+
+.ContactHeadings {
+  height: 500px;
+  background: url(./Images/img-3.jpg);
+  background-size: cover;
+
+}
+
+#backgroundContact {
+   height: 500px;
+  background: url(./Images/redmount2.jpg);
+  background-size: cover;
+
+}
+
+/*------------------END of contact elements------------------*/
+
+
+
+/*------------------This is the part for the Contact page-------------------------*/
+.form
+{
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 14px;
+ margin-left: 200px;
+}
+/*------------------end Contact page-------------------------*/
+
